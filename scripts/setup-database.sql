@@ -1,5 +1,5 @@
 -- Handshake Database Schema
--- PostgreSQL setup for production-grade SaaS
+-- PostgreSQL setup
 
 -- Users table
 CREATE TABLE IF NOT EXISTS users (
