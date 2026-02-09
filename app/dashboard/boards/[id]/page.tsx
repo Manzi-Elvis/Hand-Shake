@@ -121,7 +121,7 @@ export default function BoardDetailPage({
     },
   ]
 
-  const avatarMap: Record<string, string> = {
+  const avatarMap: Record<string, { name: string; color: string }> = {
     SC: { name: 'Sarah Chen', color: 'bg-blue-500' },
     AJ: { name: 'Alex Johnson', color: 'bg-green-500' },
     MW: { name: 'Mike Wong', color: 'bg-purple-500' },
