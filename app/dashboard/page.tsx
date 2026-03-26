@@ -229,7 +229,7 @@ export default function DashboardHome() {
           </Card>
 
           {/* Notifications */}
-          <Card className="border-border/50 bg-card/50 border-yellow-500/30">
+          <Card className="bg-card/50 border-yellow-500/30">
             <CardContent className="p-4">
               <div className="flex gap-3">
                 <AlertCircle className="w-5 h-5 text-yellow-500 flex-shrink-0 mt-0.5" />
